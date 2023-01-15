@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+body {
+      background-image: url('a.png');
+      background-position-x: center;
+      background-position-y: top;
+      height: 410vh;
+    }
+    .fcenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 7%;
+        transition: 0.2s;
+      }
+      
+  .fcenter:hover{
+    transform: scale(1.25);
+  }
+      .hcenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;
+        padding: 28px 0 ;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .intro{
+        width: 80%;
+        margin-left: 5px;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top:10% ;
+    }
+    .cintro{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+    }
+    .cquote{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .about{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: auto;
+    }
+    .faq{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: auto;
+    }
+    .end{
+      color:aliceblue;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: auto;
+        align-self: baseline;
+    }
+.vision{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-top: 2%;
+    margin-bottom: 0%;
+}
+.ways{
+    margin-top: 0%;
+    font-family: Viga;
+    color:aliceblue;
+    font-size:100px;
+    padding-left: 10%;
+    margin-bottom: 0%;
+    transition: 0.2s;
+}
+.stars{
+    margin-top: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 35px;
+    opacity: 70%;
+    padding-left: 10%;
+    margin-bottom: 10px;
+    animation-name:blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    0%{color:aliceblue;}
+    15%{color:black;}
+    30%{color:aliceblue;}
+    45%{color: black;}
+    60%{color:aliceblue;}
+    75%{color:black;}
+    100%{color:aliceblue;}
+}
+.squote{
+    margin-top: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    opacity: 70%;
+    padding-left: 10%;
+    margin-bottom: 20px;
+}
+.explore{
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: transparent;
+    border-color: aliceblue;
+    border-radius: 41px;
+    font-size: 15px;
+    padding: 8px 15px;
+    transition-duration: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 100px;
+}
+.explore span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .explore span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.5s;
+  }
+  .explore:hover span {
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .explore:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .tab{
+    background-color: transparent;
+  }
+  .hreg{
+    display: block;
+    padding-left: 5%;
+    width: 90%;
+  }
+  .logo{
+    width: 85%;
+    padding-top: 2%;
+    margin-left: 0%;
+  }
+  .home{
+    width:100%;
+    width:100%;
+    height:100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: transparent;
+    font-size: 15px;
+    transition-duration: 1s;
+    border-width: 0ch;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .home:hover{
+    background-color: rgb(47, 46, 46);
+    color: aliceblue;
+  }
+  a:link {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .apng{
+    padding-top: 12%;
+    height: 18%;
+    width:80%;
+    padding-bottom: 0px;
+  }
+  .bpng{
+    width:90%;
+    padding-left: 14px;
+  }
+  .e0{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .e1{
+    text-align: center; 
+    margin-bottom: 0px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .e2{
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0px;  
+  }
+  .e3{
+    margin-top: 2px;
+    text-align: center;
+    opacity: 75%;
+    font-size: 15px;
+    transition: 0.2s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .e3:hover{
+    transform: scale(1.05);
+  }
+  .e4{
+    opacity: 75%;
+    text-align: center;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  }
+  .etab{
+    width: 75px;
+  }
+  .insta{
+    height: 25px;
+    width:25px;
+    transition: 0.2s;
+  }
+  .insta:hover{
+    transform: scale(1.5);
+  }
+  .fb{
+    height: 25px;
+    width:25px;
+    transition: 0.2s;
+  }
+  .fb:hover{
+    transform: scale(1.5);
+  }
+  .faqtab{
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    height:auto;
+  }
+  .u{
+    color:aliceblue;
+    opacity: 50%;
+  }
+  .hom{
+    padding-left: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 23px;
+    background-color: transparent;
+    font-size: 15px;
+    color: aliceblue;
+    border-width: 0px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .hom:hover{
+    background-color: #b0b0b0;
+    color: black;
+  }
+  .one{
+    margin-left: 32%;
+    margin-right: 32%;
+    color: aliceblue;
+    display: none;
+    margin-bottom: 1.7%;
+    margin-top: 1%;
+  }
+  .ftd{
+    width:100%;
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #b0b0b0;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .ttable{
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+  }
+  .flipbox {
+    background-color: transparent;
+    width:400px;height:300px;
+    perspective: 1000px;
+  }
+  
+  .fbinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flipbox:hover .fbinner {
+    transform: rotateY(180deg);
+  }
+  
+  .fbfront, .fbback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .fbfront {
+    color: aliceblue;
+  }
+  
+  .fbback {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-box {
+    background-color: transparent;
+    width:400px;height:300px;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    color: black;
+  }
+  
+  .flip-box-back {
+    color: aliceblue;
+    transform: rotateX(180deg);
+  }
+
+  .aflip-box {
+    background-color: transparent;
+    width:400px;height:300px;
+    perspective: 1000px;
+  }
+  
+  .aflip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .aflip-box:hover .aflip-box-inner {
+    transform: rotateX(-180deg);
+  }
+  
+  .aflip-box-front, .aflip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .aflip-box-front {
+    color: black;
+  }
+  
+  .aflip-box-back {
+    color: aliceblue;
+    transform: rotateX(180deg);
+  }
+
+  .bflipbox {
+    background-color: transparent;
+    width:400px;height:300px;
+    perspective: 1000px;
+  }
+  
+  .bfbinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .bflipbox:hover .bfbinner {
+    transform: rotateY(-180deg);
+  }
+  
+  .bfbfront, .bfbback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .bfbfront {
+    color: aliceblue;
+  }
+  
+  .bfbback {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .stephen{
+    padding-top: 150px;
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+    font-family:monospace;
+    font-size:20px;
+  }
+  .stp{
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+    height:10px;
+    color: aliceblue;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:12px;
+    opacity: 50%;
+  }
+  .main{
+    margin-top: 50px;
+  }
+  .hide{
+    display: none;
+  }
+  .main:hover + .hide{
+    display: block;
+    color:aliceblue;
+  }
+
+  .slideshow-container {
+    position: relative;
+  }
+  .mySlides {
+    display:none;
+    padding: 80px;
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  .prev,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 7px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(155, 155, 155, 0.8);
+    color: black;
+    opacity: 50%;
+  }
+  .dot-container {
+      text-align: center;
+      padding: 5px;
+      margin-left: 40%;
+      margin-right: 40%;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 75%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .q{
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  .dquote{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+
+  .schedule{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
